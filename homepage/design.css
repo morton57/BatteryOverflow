@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Navigation */
+
+.nav-container {
+    height: 72px;
+    background: #7EAF4E;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav .logo {
+    font-family: "Condiment", sans-serif;                   /*needs changing*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: #F0EDF2;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-right: 100px;
+}
+
+.nav-items li:nth-last-of-type(1) {
+    margin: 0;
+}
+
+.nav-items li a {
+    color: #F0EDF2;
+    font-family: "Condiment", sans-serif;                   /*needs changing*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+    align-items: baseline;
+
+}
+
+/* End of Navigation */
+
+
+/* Header */
+.header-container {
+    background: url(images/csm_electronic_workshop_34f58e92ea\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: calc(60vh - 72px);
+    display: flex;
+    align-items: center;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 420px;
+}
+
+header h1 {
+    font-family: "Arvo", sans-serif;                           /*needs changing*/
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-left: 35px;
+}
+
+header p {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+/* End of Header */
+
+/*Buttons section */
+
+.buttons {
+    background-color: #F0EDF2;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+icons {
+    display: flex;
+}
+/* End of buttons section */
