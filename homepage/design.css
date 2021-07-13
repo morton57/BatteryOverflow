@@ -85,7 +85,7 @@ header h1 {
     font-family: "Arvo", sans-serif;                           /*needs changing*/
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 36px;
     line-height: 35px;
     color: #FFFFFF;
     margin-left: 45px;
@@ -109,10 +109,8 @@ header p {
     height: 100vh;
     display: flex;
     align-items: center;
-}
-
-icons {
-    display: flex;
     justify-content: space-between;
 }
+
+
 /* End of buttons section */
